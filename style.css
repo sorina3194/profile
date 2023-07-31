@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(86, 157, 170, 0.2) ;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
+  color: #81cbb8;
+  font-size:medium;
+  line-height: normal;
+  padding: 0 10vw;
+}
+
+.header,.description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(129, 203, 184, 0.5);
+  border-bottom: 2px solid #73AD21;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 20px;
+}
+
+h1,h3{
+  text-align: center;
+  line-height: 50px;
+  padding: 5px;
+  color:#569DAA;
+}
+
+img{
+  align-items: end;
+  width: 100px;
+  border-radius: 20vw;
+  padding: 5px;
+}
+
+a {
+  background-color: rgb(129, 203, 184, 0.5);
+  border: 5px;
+  border-radius: 25px;
+  color: #569DAA;
+  padding: 15px 32px;
+  width: 50vw auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-bottom: 2px solid #73AD21;
+  border-radius: 25px;
+}
+
+a:hover {
+  background-color: rgb(255, 255, 255, 0.2);
+  transition: background-color 1s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+li{
+  padding-bottom: 10px;
+}
+
+.button {
+  text-align: center;
+  margin: 20px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
